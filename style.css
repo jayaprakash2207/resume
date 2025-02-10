@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif; /* Choose your preferred font */
+    font-size: 14px;
+    margin: 20px;
+    color: #333; /* Dark gray text color */
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.title { /* For the "Your Title" line */
+    font-size: 1.2em;
+    color: #777; /* Lighter gray */
+    margin-bottom: 20px;
+}
+
+/* Main Grid Container */
+main {
+    display: grid;
+    grid-template-columns: 35% 65%; /* Adjust percentages as needed */
+    gap: 30px; /* Space between columns */
+}
+
+/* Left Column Styles */
+.left-column {
+    padding: 20px;
+}
+
+.contact-info a {
+    display: flex; /* Use flexbox for icon and text alignment */
+    align-items: center; /* Vertically center icon and text */
+    margin-bottom: 10px;
+    text-decoration: none; /* Remove underlines from links */
+    color: inherit; /* Inherit text color from parent */
+}
+
+.contact-info svg { /* Style for the icons (assuming SVG icons) */
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.skills-list, .education-list {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+}
+
+.skills-list li, .education-list li {
+    margin-bottom: 10px;
+}
+
+/* Right Column Styles */
+.right-column {
+    padding: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+.job-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.company-name {
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.job-description {
+    margin-bottom: 15px;
+}
+
+.job-accomplishments {
+    list-style-type: disc; /* Use bullet points for accomplishments */
+    padding-left: 20px;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    background-color: #ccc; /* Light gray line */
+    margin: 20px 0;
+}

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jayaprakash's Resume</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 20px;
+            display: flex;
+            flex-direction: column; /* Changed to column for better responsiveness */
+        }
+        #header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        #main {
+            display: flex;
+            flex-wrap: wrap; /* Allows sections to wrap on smaller screens */
+        }
+        #mainLeft, #mainRight {
+            flex: 1; /* Each section takes up equal width */
+            padding: 20px;
+            border: 1px solid #ccc; /* Added border for visual separation */
+            margin-bottom: 20px; /* Added margin for spacing */
+
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 5px;
+        }
+        /* Media query for smaller screens */
+        @media (max-width: 768px) {
+            #main {
+                flex-direction: column; /* Stack sections vertically on smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <header id="header">
+        <h1>Jayaprakash</h1>
+        <hr>
+        Software Engineering Student
+        <hr>
+    </header>
+
+    <main id="main">
+        <article id="mainLeft">
+            <section>
+                <h2>CONTACT</h2>
+                <ul>
+                    <li>Email: [Your Email Address]</li>
+                    <li>Phone: [Your Phone Number]</li>
+                    <li>LinkedIn: [Your LinkedIn Profile URL (Optional)]</li>
+                    <li>GitHub: [Your GitHub Profile URL (Optional)]</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>SKILLS</h2>
+                <ul>
+                    <li><b>Programming Languages:</b> Java (Intermediate), Python (Intermediate), HTML, C, C++</li>
+                    <li><b>Technical Skills:</b> VLSI Design, PLC, Microcontroller, Electronic Chip Build, Circuit Analysis & Design (Analog & Digital), Semiconductor Devices, Digital Electronics, Communication Systems, Signal Processing, Control Systems, Embedded Systems</li>
+                    <li><b>Software/Tools:</b> PSpice, MATLAB, Proteus, Multisim, CCS</li>
+                    <li><b>Other:</b> Data Science</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>EDUCATION</h2>
+                <ul>
+                    <li><b>B.E. Computer Science and Engineering</b>, Velammal Institute of Technology (Expected Graduation Year)</li>
+                    <li><b>Diploma in Electronics and Communication Engineering</b>, Sri Sai Ram College (2023), 85% (First Class with Distinction)</li>
+                    <li><b>10th Grade</b>, Narayana School</li>
+                </ul>
+            </section>
+        </article>
+
+        <article id="mainRight">
+            <section>
+                <h2>ABOUT</h2>
+                <p>Highly motivated and enthusiastic software engineering student with a strong foundation in electronics and a growing passion for software development.  Eager to learn and contribute to innovative projects, particularly in AI, web and app development, and entrepreneurship.  Proven ability to work effectively in teams and independently.  Seeking opportunities to apply technical skills and knowledge in a challenging and rewarding environment.</p>
+            </section>
+
+            <section>
+                <h2>PROJECTS</h2>
+                <ul>
+                    <li><b>Facial Emotion Detection</b></li>
+                    <li><b>OTP Based Locking System</b> (Awarded Best Project of the Department)</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>CERTIFICATIONS</h2>
+                <ul>
+                    <li>EV Fundamentals</li>
+                    <li>Python for Data Science</li>
+                    <li>AI & Development</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>HOBBIES</h2>
+                <ul>
+                    <li>Reading Books</li>
+                    <li>Watching Movies</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>INTERESTS</h2>
+                <ul>
+                    <li>Artificial Intelligence</li>
+                    <li>Web & App Development</li>
+                    <li>Entrepreneurship</li>
+                </ul>
+            </section>
+        </article>
+    </main>
+
+</body>
+</html>
